@@ -28,6 +28,8 @@ jobs:
         with:
           r-version: ${{ matrix.config.r }}
           Ncpus: 4
+      - name: Install system packages
+        run: sudo apt-get install libxml2-dev libcurl4-openssl-dev libxslt-dev
       - name: Install dependencies
         run: |
           install.packages(c("remotes", "rcmdcheck"))

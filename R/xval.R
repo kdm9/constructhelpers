@@ -6,7 +6,7 @@
 #' @param freqs             Per-locality allele frequencies, see conStruct::conStruct()
 #' @param data.partitions   Pre-computed data partitions, see conStruct::x.validation()
 #' @param geoDist           Geographic distance matrix, see conStruct::conStruct()
-#' @param coods             X/Y or Long/Lat coordiate matrix, see conStruct::conStruct()
+#' @param coords            X/Y or Long/Lat coordiate matrix, see conStruct::conStruct()
 #' @param prefix            File prefix for any output files, see conStruct::x.validation()
 #' @param n.iter            Number of MCMC interations
 #' @param make.figs         Save plots to disk
